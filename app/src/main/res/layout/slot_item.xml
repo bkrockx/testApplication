@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    android:layout_height="70dp">
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/slot_time"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:text="01:00 PM - 01:30 PM"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@color/grey"
+        android:layout_height="69dp">
+    </TextView>
+    <TextView
+        android:id="@+id/book_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:background="@drawable/round_background"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        />
+    <View
+        android:background="@color/white"
+        android:alpha="0.5"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="2dp"/>
+    </RelativeLayout>
+

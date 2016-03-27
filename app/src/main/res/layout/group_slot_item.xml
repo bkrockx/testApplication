@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/group_view"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="16dp"
+        android:padding="10dp"
+        android:background="@drawable/cicular_healthfy_red"
+        android:src="@drawable/ic_morningsnack"/>
+    <TextView
+        android:id="@+id/slot_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Morning"
+        android:inputType="textCapSentences"
+        android:layout_toRightOf="@+id/image"
+        android:textSize="17sp"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/arrow_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_red_reveallist"/>
+
+
+    <TextView
+        android:id="@+id/slot_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/arrow_image"
+        android:textColor="@color/healthy_red"
+        android:textSize="14sp"
+        android:text="8 Slots available"/>
+
+    <View
+        android:background="@color/grey"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</RelativeLayout>
